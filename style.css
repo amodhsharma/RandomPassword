@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*This means that the width and height of an element are calculated based on the content, padding, order of the element.*/
+    font-family: "Jost", sans-serif;;
+}
+
+body{
+    background-color: #002366;
+    color: #fff
+
+}
+
+.container{
+    margin: 12%;    /*distance of the central container fro the edges*/
+    width: 90%; /*width of the entire container*/
+    max-width: 700px;
+}
+
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-weight: 500;   /*boldness*/
+    font-size: 45px;
+    line-height: 1; /*lessens the gap between 2 2 consecutive lines, normally its 1.2*/
+}
+
+.container h1 span{
+    color:darkorange;
+    border-bottom: 4px solid darkorange;    /* adds a line of width 4 px */
+    padding-bottom: 7px; /*practically doesnt do anything */
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border:0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container button{
+    border:0;
+    outline:0;
+    font-size: 22px;
+    font-weight: 300;
+    background:darkorange;
+    color: fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
